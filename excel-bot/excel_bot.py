@@ -2,7 +2,7 @@ import pandas as pd
 from flask import Flask, request, jsonify
 
 # Load Excel Data
-data_file = 'HE 2025 data.xlsx'  # Path to your Excel file
+data_file = '2025 data.xlsx'  # Path to your Excel file
 df = pd.read_excel(data_file)
 
 # Initialize Flask App
